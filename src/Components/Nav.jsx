@@ -6,7 +6,7 @@ const Nav = () => {
 
 
         <div>
-            <ul className="nav-ul">
+            <ul className="nav-ul flex bg-black" >
                 <li><Link to="/">Products</Link></li>
                 <li><Link to="/add">Add Products</Link></li>
                 <li><Link to="/Update">Update Products</Link></li>

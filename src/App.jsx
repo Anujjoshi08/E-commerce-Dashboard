@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
       <Nav />
       <Routes>
-        <Route path="/" element={<h1>Product Listing components</h1>
+        <Route path="/" element={<h1 className="bg-red-500">Product Listing components</h1>
         } />
         <Route path="/add" element={<h1>Add Product Component </h1>
         } />
